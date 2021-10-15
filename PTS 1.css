@@ -1,0 +1,130 @@
+body{
+    margin: 0;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.header{
+    margin: auto;
+    color: gray;
+    background-color: rgb(19, 16, 32);
+    text-align: center;
+}
+
+@media screen and (max-width: 513px) {
+}
+
+.profile{
+    padding-top: 4%;
+    padding-bottom: 1px;
+}
+.profile img{
+   width: 190px;
+   align-items: center;
+   justify-content: center;
+   display: flex;
+   margin-left: 42%;
+}
+.profile h1{
+    font-size: 40px;
+    color: darkgray;
+    font-family:'Times New Roman';
+    text-align: center;
+    margin-top: 1%;
+}
+.profile h2{
+    font-size: 25px;
+    color: darkgray;
+    font-family:'Times New Roman';
+    margin-bottom: 5%;
+    text-align: center;
+}
+.maintext{
+    font-size: 40px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin-top: 5%;
+}
+.content{
+    margin-top: 30px;
+}
+.content ul {
+    display:grid;
+    list-style-type:none;
+    margin-left:200px;
+    padding:0;
+    grid-template-columns: repeat(3, auto);
+    justify-content: center;
+    align-items: center;
+}
+.content ul li span {
+    padding: 10px;
+    margin-right: 170px;
+    font-size:1.4em;
+    margin-bottom:1em;
+    color:black;
+    display: flex;
+    justify-content: center;
+}
+.content ul li img{
+    height: 170px;
+    margin-right: 170px;
+ }
+ .subtext{
+    font-size: 40px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin-top: 5%;
+}
+.context ul {
+    display:grid;
+    list-style-type:none;
+    margin-left:200px;
+    padding:0;
+    grid-template-columns: repeat(3, auto);
+    justify-content: center;
+    align-items: center;
+}
+.context ul li span {
+    padding: 10px;
+    margin-right: 150px;
+    font-size:1.4em;
+    margin-bottom:1em;
+    color:black;
+    display: flex;
+    justify-content: center;
+}
+.context ul li img{
+    height: 180px;
+    margin-right: 170px;
+ }
+.footer{
+    background:#060618;
+    
+    height: 100px;
+}
+
+/* .pic img{
+    width:260px;
+    padding-bottom: 10px;
+    margin-top:150px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.content{
+    margin-top: 5%;
+}
+
+.conten ul span{
+    display:grid;    
+    padding: 4em 1em;
+    display:grid;
+    list-style-type:none;
+    grid-template-columns: repeat(3, auto);
+}
+
+@media screen and (max-width: 513px) {
+} */
+    
